@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="validation.css">
+</head>
+<body>
+    <div><h1 id="wel">WELCOME</h1></div>
+    <form>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" ><br><br>
+
+        <label for="password">Password :</label>
+        <input type="password" id="password" ><br><br>
+
+        <label for="email">Email Id:</label>
+        <input type="email" id="email" ><br><br>
+
+        <label for="phone">Phone No:</label>
+        <input type="tel" id="phone" ><br><br>
+
+        <label for="bday">Birthdate:</label>
+        <input type="date" id="bday"><br><br>
+
+        <label for="year">Year:</label>
+        <input type="number" id="year" min="1" max="4" value="1"><br><br>
+
+        <span>Gender :</span>
+        
+        <label for="male">Male</label>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" value="female" name="gender"><br><br>
+
+        <label for="college">College:</label>
+        <select id="college">
+            <option value="kmit">Kmit</option>
+            <option value="kmec">Kmec</option>
+            <option value="ngit">Ngit</option>
+            <option value="kmce">Kmce</option>
+        </select><br><br>
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" rows="3" cols="40"></textarea><br><br>
+
+        <!-- <input type="submit" id="sub"> -->
+        
+
+    </form>
+    <button id="sub">Submit</button>
+    <script src="validation.js"></script>
+</body>
+</html>
