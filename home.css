@@ -1,0 +1,9 @@
+body{
+    background-color: hsl(61, 100%, 57%);
+    text-align: center;
+    font-family:monospace;
+    font-size: 1.1rem;
+}
+#p{
+    font-size: 0.1em;
+}
